@@ -35,7 +35,7 @@ function index() {
               elevation={12}
               sx={{
                 p: 3,
-                height: "85vh",
+                height: "60vh",
                 overflowY: "auto",
               }}
             >
@@ -52,7 +52,7 @@ function index() {
                     alignItems="center"
                     spacing={6}
                   >
-                    <Grid item sx={{ mt: 40 }} xs={12}>
+                    <Grid item sx={{ mt: 12 }} xs={12}>
                       <Typography variant="h5">Please Login</Typography>
                     </Grid>
                     <Grid item xs={12}>

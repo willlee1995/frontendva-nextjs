@@ -45,7 +45,7 @@ const Navbar = () => {
             }}
           >
             {pages.map((page) => (
-              <Link href={`/${page.url}`} passHref key={page.url}>
+              <Link href={`${page.url}`} passHref key={page.url}>
                 <Button
                   key={page.url}
                   sx={{
